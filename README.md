@@ -38,7 +38,11 @@ This system is designed primarily for **internal operations teams**, while also 
 ```bash
 ./gradlew bootRun
 ```
-
+**DB Configuration**
+** Create a database then go to application properties on the app and change these 3 fields according to your setup **
+** spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name **
+** spring.datasource.username=${DB_USERNAME} **
+** spring.datasource.password=${DB_PASSWORD} **
 ---
 
 ### Access
